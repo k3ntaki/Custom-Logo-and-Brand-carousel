@@ -1,0 +1,47 @@
+@charset "utf-8";
+img{
+	border:none;}
+div#sponcerSlider {
+	position:relative;
+	width:100%;
+	overflow:hidden;
+	}
+div#sponcerSlider div#divMasker {
+	position:absolute;
+	right:0px;
+	top:0px;
+	width:70px;
+	height:100%;
+	background-image:url(../Img/mask.png);
+	z-index:1;
+	
+	}
+div#sponcerSlider ul {
+	position: relative;
+	left: 0px;
+	padding: 0px;
+	list-style-type: none;
+	white-space:nowrap;
+	}
+div#sponcerSlider ul li {
+	margin-left:5px;
+	margin-right:5px;
+	display:inline-block;
+	padding:0px;
+	background-image:;
+	background-repeat:no-repeat;
+		}
+img.filter {
+	opacity:0.8;
+-webkit-filter: grayscale(100%) blur(1px);
+-moz-filter: grayscale(100%) blur(1px);
+-ms-filter: grayscale(100%) blur(1px);
+filter: gray blur;
+filter: grayscale(100%) blur(1px);
+filter: url(../assets/SVG/filter.svg#blur_gray);
+-webkit-transition: all 0.7s;
+	-moz-transition: all 0.7s;
+	-ms-transition: all 0.7s;
+	-o-transition: all 0.7s;
+	transition: all 0.7s;
+	}
